@@ -48,151 +48,67 @@
         <div class="bg-light container-flex">
             <h1 class="text-center text-danger d-flex align-items-center justify-content-center fw-bold cabecera">Home</h1>
         </div>
-      <!--buscador-->
-        <div class="container d-flex align-items-center justify-content-end mt-5">
-            <div class="col-5">
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                    <label class="form-check-label" for="inlineCheckbox1">Category</label>
-                </div>
 
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                    <label class="form-check-label" for="inlineCheckbox1">Category</label>
-                </div>
+            <!--buscador-->
+            <div class="container d-flex align-items-center mt-5">
+                <div class="col-7">
+                    <div id="check" class="form-check form-check-inline fw-bold text-dark">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                        <label class="form-check-label" for="inlineCheckbox1">Food Fair</label>
+                    </div>
 
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                    <label class="form-check-label" for="inlineCheckbox1">Category</label>
-                </div>
+                    <div id="check" class="form-check form-check-inline fw-bold text-dark">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                        <label class="form-check-label" for="inlineCheckbox1">Museum</label>
+                    </div>
 
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                    <label class="form-check-label" for="inlineCheckbox1">Category</label>
-                </div>
+                    <div id="check" class="form-check form-check-inline fw-bold text-dark">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                        <label class="form-check-label" for="inlineCheckbox1">Custome Party</label>
+                    </div>
 
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                    <label class="form-check-label" for="inlineCheckbox1">Category</label>
+                    <div id="check" class="form-check form-check-inline fw-bold text-dark">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                        <label class="form-check-label" for="inlineCheckbox1">Music Concert</label>
+                    </div>
+
+                    <div id="check" class="form-check form-check-inline fw-bold text-dark">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                        <label class="form-check-label" for="inlineCheckbox1">Book Exchange</label>
+                    </div>
+
+                    <div id="check" class="form-check form-check-inline fw-bold text-dark">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                        <label class="form-check-label" for="inlineCheckbox1">Cinema</label>
+                    </div>
+
                 </div>
-                  
+                <div class="col-3">
+                    
+                </div>
+                    
+                <!--Busqueda falta mejorar--> 
+                <form action="">
+                    <input id="formulario" type="text" placeholder="Search...">
+                    <input id ="boton" type="submit" value="Submit" class="btn btn-outline-success bg-dark text-light">
+                </form>
+
+                <!--Devolucion de de cartas-->
+                <ul id ="lista">  
+                    
+                </ul>
+
+
             </div>
-            <div class="col-3">
-                
-            </div>
-                
-            <div class="col-4">
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success bg-dark text-light" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
-                </form>    
-            </div>
+        
+     
+         <!--TARJETA-->
+        <div id="contenedorCajas">
+                <!--SE RECORRE EL CICLO-->
         </div>
+       
     
-
-        <div class="container mt-5">
-            <div class="row g-4">
-                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-3">
-                    <div class="card bg-light" style="width: 18rem;">
-                        <img src="./assets/images/Cine7.jpg" class="card-img-top" alt="cine">
-                        <div class="card-body">
-                        <h5 class="card-title fw-bold">Premier: Avatar:The Way of Water </h5>
-                        <p class="card-text">Date: 16/12</p>
-                        <div class="container-fluid d-flex justify-content-between mt-5">
-                            <p class="card-text fw-bold">Price: $25</p>
-                            <a href="./details.html" class="btn btn-danger">More details</a>
-                        </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-3">
-                    <div class="card bg-light" style="width: 18rem;">
-                        <img src="./assets/images/Feria de comidas7.jpg" class="card-img-top" alt="comidas">
-                        <div class="card-body">
-                        <h5 class="card-title fw-bold">Culinary Contest</h5>
-                        <p class="card-text">Date: 3/12</p>
-                        <div class="container-fluid d-flex justify-content-between mt-5">
-                            <p class="card-text fw-bold">Price: $15</p>
-                            <a href="./details.html" class="btn btn-danger">More details</a>
-                        </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-3">
-                    <div class="card bg-light" style="width: 18rem;">
-                        <img src="./assets/images/Salida al museo5.jpg" class="card-img-top" alt="museo">
-                        <div class="card-body">
-                        <h5 class="card-title fw-bold">National Museum</h5>
-                        <p class="card-text">Date: 15/12</p>
-                        <div class="container-fluid d-flex justify-content-between mt-5">
-                            <p class="card-text fw-bold">Price: $10</p>
-                            <a href="./details.html" class="btn btn-danger">More details</a>
-                        </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-3">
-                    <div class="card bg-light" style="width: 18rem;">
-                        <img src="./assets/images/Concierto de musica1.jpg" class="card-img-top" alt="concierto">
-                        <div class="card-body">
-                        <h5 class="card-title fw-bold">Zona Music Festival</h5>
-                        <p class="card-text">Date: 2/12</p>
-                        <div class="container-fluid d-flex justify-content-between mt-5">
-                            <p class="card-text fw-bold">Price: $100</p>
-                            <a href="./details.html" class="btn btn-danger">More details</a>
-                        </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-3">
-                    <div class="card bg-light" style="width: 18rem;">
-                        <img src="./assets/images/Books.jpg" class="card-img-top" alt="libreria">
-                        <div class="card-body">
-                        <h5 class="card-title fw-bold">Miami Book Fair</h5>
-                        <p class="card-text">Date: 11/12</p>
-                        <div class="container-fluid d-flex justify-content-between mt-5">
-                            <p class="card-text fw-bold">Price: $10</p>
-                            <a href="./details.html" class="btn btn-danger">More details</a>
-                        </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-3">
-                    <div class="card bg-light" style="width: 18rem;">
-                        <img src="./assets/images/Fiesta de disfraces1.jpg" class="card-img-top" alt="disfraces">
-                        <div class="card-body">
-                        <h5 class="card-title fw-bold">Halloween Costume Contests</h5>
-                        <p class="card-text">Date: 31/10</p>
-                        <div class="container-fluid d-flex justify-content-between mt-5">
-                            <p class="card-text fw-bold">Price: $10</p>
-                            <a href="./details.html" class="btn btn-danger">More details</a>
-                        </div>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-3">
-                    <div class="card bg-light" style="width: 18rem;">
-                        <img src="./assets/images/Maraton3.jpg" class="card-img-top" alt="maraton">
-                        <div class="card-body">
-                        <h5 class="card-title fw-bold">Marathon Charity</h5>
-                        <p class="card-text">Date: 4/12</p>
-                        <div class="container-fluid d-flex justify-content-between mt-5">
-                            <p class="card-text fw-bold">Price: $50</p>
-                            <a href="./details.html" class="btn btn-danger">More details</a>
-                        </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
+       
     </main>
 
     <footer class="container-fluid">
@@ -212,5 +128,8 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="./assets/data.js"></script>
+    <script src="./assets/cards.js"></script>
+    <script src="./assets/check.js"></script>
 </body>
 </html>
